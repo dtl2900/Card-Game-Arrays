@@ -1,18 +1,13 @@
 // Programmer Daniel Torres Larreta
-// Class: CS 145
-// Due Date 01/19/2024
-// Assignemnt: Lab 2 Card Shuffling and Dealing Program 
 // Purpose: This will create a basic card shuffling and dealing program. The purpose is to serve as a exercise and practice for Lab 3 which will be wriiting a card game using arrays. This lab will also help with creating multiple classes.
 
- 
- 
  import java.security.SecureRandom;
 
      class Card {
      private final String face; // face of card ("Ace", "Deuce", ...)
      private final String suit; // suit of card ("Hearts", "Diamonds", ...)
 
-     // two-argument constructor initializes card’s face and suit
+     // two-argument constructor initializes cardâ€™s face and suit
      public Card(String cardFace, String cardSuit) {
         this.face = cardFace; // initialize face of card
         this.suit = cardSuit; // initialize suit of card
